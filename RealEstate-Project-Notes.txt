@@ -1,0 +1,36 @@
+MERN Stack Project: Build a Modern Real Estate Marketplace with react MERN (jwt, redux toolkit)
+URL : https://youtu.be/VAaUy_Moivw?si=OMFzp8KfgIJmPNzU
+
+Final version = estate.100jsprojects.com
+
+Install React.js and Tailwind CSS and
+Create the first template
+
+npm create vite@latest client
+cd client  
+  npm install
+  npm run dev
+
+https://tailwindcss.com/docs/guides/vite
+
+install extension ES7 React/Redux/GraphQL/React-Native snippets
+install extension  Auto Rename Tag
+install extension console Ninja
+install extension GitHub Copilot
+install extension Tailwind CSS IntelliSense
+
+
+
+git remote add origin https://github.com/inspirationdev1/RealEstate.git
+  git branch -M main
+  git push -u origin main
+
+
+npm i react-router-dom
+
+cd..
+npm init -y
+npm i express
+npm i nodemon
+
+mv .git ../
