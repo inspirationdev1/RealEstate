@@ -46,3 +46,12 @@ Access IP = 122.175.35.197/32
 
 https://cloud.mongodb.com/v2/6559f020797c6e69eb140266#/overview
 
+
+*******Create sign up API route*********
+use insomia api route test
+
+*****************************************
+
+****Install***
+npm i bcryptjs
+******************
