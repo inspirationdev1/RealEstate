@@ -59,3 +59,7 @@ npm i bcryptjs
 *********Create a middleware and function to handle possible errors******
 
 ***************************************
+
+**********Complete signup page UI****
+
+***************************
