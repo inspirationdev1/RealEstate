@@ -63,3 +63,8 @@ npm i bcryptjs
 **********Complete signup page UI****
 
 ***************************
+
+**********Complete signup page functionality****
+
+***************************
+
