@@ -71,3 +71,8 @@ npm i bcryptjs
 *********Create sign in API Route****
 npm i jsonwebtoken
 ***********************************
+
+*********Complete sign in page functionality****
+
+
+*******************************************
