@@ -74,5 +74,11 @@ npm i jsonwebtoken
 
 *********Complete sign in page functionality****
 
-
 *******************************************
+
+***Add redux toolkit***
+https://redux-toolkit.js.org/tutorials/quick-start
+go to client folder and install
+npm install @reduxjs/toolkit react-redux
+
+******************
