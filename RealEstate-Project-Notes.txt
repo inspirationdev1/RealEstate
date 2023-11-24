@@ -82,3 +82,6 @@ go to client folder and install
 npm install @reduxjs/toolkit react-redux
 
 ******************
+***Add redux persist***
+npm i redux-persist
+***********************
