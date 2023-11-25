@@ -85,3 +85,9 @@ npm install @reduxjs/toolkit react-redux
 ***Add redux persist***
 npm i redux-persist
 ***********************
+
+*****Add Google OAuth functionality***********
+https://firebase.google.com
+npm install firebase
+
+**********************************************
