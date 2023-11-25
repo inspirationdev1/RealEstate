@@ -91,3 +91,8 @@ https://firebase.google.com
 npm install firebase
 
 **********************************************
+
+**********Update the header and make the profile page private*******
+
+
+***********************************************************
