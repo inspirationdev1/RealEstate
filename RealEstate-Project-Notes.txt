@@ -1,5 +1,8 @@
 MERN Stack Project: Build a Modern Real Estate Marketplace with react MERN (jwt, redux toolkit)
 URL : https://youtu.be/VAaUy_Moivw?si=OMFzp8KfgIJmPNzU
+
+Source code and demo: https://github.com/sahandghavidel/mern-estate
+
 user = inspirationdev1@gmail.com
 password = dev123@dev123
 
@@ -96,3 +99,7 @@ npm install firebase
 
 
 ***********************************************************
+
+***Complete profile page UI****
+
+****************************
