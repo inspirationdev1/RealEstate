@@ -103,3 +103,7 @@ npm install firebase
 ***Complete profile page UI****
 
 ****************************
+
+***complete image upload functionality***
+
+**************************************
