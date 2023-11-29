@@ -107,3 +107,9 @@ npm install firebase
 ***complete image upload functionality***
 
 **************************************
+
+***Create update user API route******
+npm i cookie-parser
+****************************************
+
+npm uninstall cookie-parser
