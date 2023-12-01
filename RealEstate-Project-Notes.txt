@@ -112,4 +112,7 @@ npm install firebase
 npm i cookie-parser
 ****************************************
 
-npm uninstall cookie-parser
+***Complete update user functionality*********
+
+
+********************************************
