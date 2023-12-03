@@ -122,3 +122,7 @@ npm i cookie-parser
 *****Add sign out user functionality***
 
 ***************************************
+
+*****Add create listing API route***
+
+*************************************
