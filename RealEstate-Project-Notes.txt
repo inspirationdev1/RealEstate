@@ -113,6 +113,8 @@ npm i cookie-parser
 ****************************************
 
 ***Complete update user functionality*********
-
-
 ********************************************
+
+***Add delete user functionality****
+
+************************************
