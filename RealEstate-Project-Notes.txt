@@ -118,3 +118,7 @@ npm i cookie-parser
 ***Add delete user functionality****
 
 ************************************
+
+*****Add sign out user functionality***
+
+***************************************
