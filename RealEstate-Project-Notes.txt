@@ -126,3 +126,7 @@ npm i cookie-parser
 *****Add create listing API route***
 
 *************************************
+
+**Complete create listing page UI***
+
+***********************************
