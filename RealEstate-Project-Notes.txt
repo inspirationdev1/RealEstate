@@ -134,3 +134,7 @@ npm i cookie-parser
 ***Complete upload listing images functionality****
 
 ***************************************************
+
+***Complete create listing page functionality****
+
+*************************************************
