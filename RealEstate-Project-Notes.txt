@@ -138,3 +138,7 @@ npm i cookie-parser
 ***Complete create listing page functionality****
 
 *************************************************
+
+****Create get user listings API route****
+
+******************************************
