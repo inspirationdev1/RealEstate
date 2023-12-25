@@ -52,7 +52,8 @@ https://cloud.mongodb.com/v2/6559f020797c6e69eb140266#/overview
 
 *******Create sign up API route*********
 use insomia api route test
-
+loginuser = inspirationdev1@gmail.com
+passphrase = dev123@dev123
 *****************************************
 
 ****Install***
@@ -144,5 +145,9 @@ npm i cookie-parser
 ******************************************
 
 ****Complete show user listings functionality****
+
+*************************************************
+
+****Complete delete user listings functionality****
 
 *************************************************
