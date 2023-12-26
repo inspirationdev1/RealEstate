@@ -155,3 +155,12 @@ npm i cookie-parser
 ******Create update listing API route****
 
 *****************************************
+
+******Complete update listing functionality*****
+
+************************************************
+
+
+
+
+
