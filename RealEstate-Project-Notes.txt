@@ -151,3 +151,7 @@ npm i cookie-parser
 ****Complete delete user listings functionality****
 
 *************************************************
+
+******Create update listing API route****
+
+*****************************************
