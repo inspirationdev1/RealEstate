@@ -171,11 +171,13 @@ npm i swiper
 
 *****Add contact landlord functionality to the listing page******
 http://127.0.0.1:5173/listing/658aed4de08854d694be9ac9
-
-
 *****************************************************************
 
 *****Create search API route********
 
 *********************************
+
+******Complete header search form functionality*****
+
+****************************************************
 
