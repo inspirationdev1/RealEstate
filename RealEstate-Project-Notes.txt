@@ -188,3 +188,9 @@ http://127.0.0.1:5173/listing/658aed4de08854d694be9ac9
 ****Add onChange and onSubmit functionality to the search page****
 
 ******************************************************************
+
+*****Create the listing item component and show listings*****
+tailwind css line clamp
+npm install -D @tailwindcss/line-clamp
+**************************************************************
+
