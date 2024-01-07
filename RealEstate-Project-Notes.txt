@@ -194,3 +194,7 @@ tailwind css line clamp
 npm install -D @tailwindcss/line-clamp
 **************************************************************
 
+****Add show more listings functionality********
+
+************************************************
+
