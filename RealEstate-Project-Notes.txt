@@ -202,3 +202,6 @@ npm install -D @tailwindcss/line-clamp
 
 *************************
 
+****Complete About page*****
+
+***************************
