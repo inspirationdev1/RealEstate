@@ -1,3 +1,5 @@
+***Testing git***
+
 MERN Stack Project: Build a Modern Real Estate Marketplace with react MERN (jwt, redux toolkit)
 URL : https://youtu.be/VAaUy_Moivw?si=OMFzp8KfgIJmPNzU
 
@@ -10,6 +12,8 @@ Final version = estate.100jsprojects.com
 
 Install React.js and Tailwind CSS and
 Create the first template
+
+
 
 npm create vite@latest client
 cd client  
