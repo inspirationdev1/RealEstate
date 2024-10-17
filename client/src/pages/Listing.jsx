@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import SwiperCore from "Swiper";
+
 import { useSelector } from "react-redux";
 import { Navigation } from "swiper/modules";
 import "swiper/css/bundle";
@@ -15,7 +16,7 @@ import {
   FaShare,
 } from "react-icons/fa";
 import Contact from "../components/Contact";
-
+import whatsappLogo from "../images/whatsapp.png";
 export default function Listing() {
   // SwiperCore.use([Navigation]);
   const [listing, setListing] = useState(null);
@@ -25,6 +26,7 @@ export default function Listing() {
   const [contact, setContact] = useState(false);
   const params = useParams();
   const { currentUser } = useSelector((state) => state.user);
+  const [mobileno, setMobileno] = useState("");
 
   useEffect(() => {
     const fetchListing = async () => {
@@ -37,6 +39,13 @@ export default function Listing() {
           setLoading(false);
           return;
         }
+        const userRef = data.userRef;
+        console.log("userRef", userRef);
+        const resListingUser = await fetch(`/api/user/${userRef}`);
+        const dataListingUser = await resListingUser.json();
+        console.log("dataListingUser", dataListingUser);
+        setMobileno(dataListingUser.mobileNo);
+        console.log("Mobileno", mobileno);
         setListing(data);
         setLoading(false);
         setError(false);
@@ -126,7 +135,32 @@ export default function Listing() {
               </button>
             )}
             {contact && <Contact listing={listing} />}
-            
+          </div>
+
+          <div
+            className="fixed-bottom right-100 p-3"
+            style={{ zIndex: "6", left: "initial" }}
+          >
+            <div className="w-58 flex flex-col items-center mb-12 border-black border-2 rounded-xl p-2 ">
+              {" "}
+              <p>Contact Owner</p>
+              {/* <a
+                href="https://wa.me/+919550345573?text=Hello Hello i just saw your PROPERTY ?  "
+                target="_blank"
+              >
+                <img src={whatsappLogo} width="60" alt="whatsapp " />
+              </a> */}
+              <a
+                href={
+                  "https://wa.me/+91" +
+                  mobileno +
+                  "?text=Hello Hello i just saw your PROPERTY ?  "
+                }
+                target="_blank"
+              >
+                <img src={whatsappLogo} width="60" alt="whatsapp " />
+              </a>
+            </div>
           </div>
         </div>
       )}

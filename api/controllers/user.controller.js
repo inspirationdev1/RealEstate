@@ -24,6 +24,7 @@ export const updateUser = async (req, res, next) => {
           email: req.body.email,
           password: req.body.password,
           avatar: req.body.avatar,
+          mobileNo: req.body.mobileNo,
         },
       },
       { new: true }
@@ -63,8 +64,7 @@ export const getUser = async (req, res, next) => {
   try {
     const user = await User.findById(req.params.id);
     if (!user) return next(erroHandler(404, "User not found!"));
-    const { password: pass, ...rest } = user.doc;
-    res.status(200).json(rest);
+    res.status(200).json(user);
   } catch (error) {
     next(error);
   }
