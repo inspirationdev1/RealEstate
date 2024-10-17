@@ -242,3 +242,17 @@ How to Connect a Squarespace Domain to Your render.com webSite
 Squarespace how to connect render.com
 http://www.inspiration-realestate.in/
 https://www.inspiration-realestate.in/
+
+
+
+
+
+dropdown of state select api link:- https://ipinfo.io/json?=mytoken
+state select api token:- 0da01d4c0a94f8
+
+
+https://github.com/devopsdeveloper1107/React-practical/blob/main/select%20country%20state%20and%20city%20reactjs.js
+
+
+https://github.com/devopsdeveloper1107/React-practical/blob/main/Select%20Country%20and%20State%20from%20JSON%20file%20in%20React%20js
+
