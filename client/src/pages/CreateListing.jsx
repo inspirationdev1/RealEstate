@@ -48,7 +48,10 @@ export default function CreateListing() {
     error && <p className="text-center my-7 text-2xl">Something went wrong</p>;
     const handleImageSubmit = (e) => {
       const filesArray = Array.from(files);
-      if (filesArray.length > 0 && filesArray.length + formData.imageUrls.length < 7) {
+      if (
+        filesArray.length > 0 &&
+        filesArray.length + formData.imageUrls.length < 7
+      ) {
         setUploading(true);
         setImageUploadError(false);
         const promises = [];
@@ -73,7 +76,6 @@ export default function CreateListing() {
         setUploading(false);
       }
     };
-    
   }
   const storeImage = async (file) => {
     return new Promise((resolve, reject) => {
@@ -292,11 +294,12 @@ export default function CreateListing() {
               value={formData.countryId}
             >
               <option value="">--Select Country--</option>
-              {country.map((getcon, index) => (
-                <option key={index} value={getcon._id}>
-                  {getcon.countryName}{" "}
-                </option>
-              ))}
+              {Array.isArray(country) &&
+                country.map((getcon, index) => (
+                  <option key={index} value={getcon._id}>
+                    {getcon.countryName}
+                  </option>
+                ))}
             </select>
           </div>
 
@@ -309,11 +312,12 @@ export default function CreateListing() {
               value={formData.stateId}
             >
               <option value="">--Select State--</option>
-              {state.map((getst, index) => (
-                <option key={index} value={getst._id}>
-                  {getst.stateName}{" "}
-                </option>
-              ))}
+              {Array.isArray(state) &&
+                state.map((getst, index) => (
+                  <option key={index} value={getst._id}>
+                    {getst.stateName}
+                  </option>
+                ))}
             </select>
           </div>
 
@@ -326,13 +330,12 @@ export default function CreateListing() {
               value={formData.cityId}
             >
               <option value="">--Select City--</option>
-              {city
-                ? city.map((getcity, index) => (
-                    <option key={index} value={getcity._id}>
-                      {getcity.cityName}{" "}
-                    </option>
-                  ))
-                : []}
+              {Array.isArray(city) &&
+                city.map((getcity, index) => (
+                  <option key={index} value={getcity._id}>
+                    {getcity.cityName}
+                  </option>
+                ))}
             </select>
           </div>
 

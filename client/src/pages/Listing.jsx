@@ -16,15 +16,15 @@ import {
   FaShare,
 } from "react-icons/fa";
 import Contact from "../components/Contact";
-import whatsappLogo from "../images/whatsapp.png";
+import whatsappLogo from "../images/whatsapp.png";                                              
 export default function Listing() {
   // SwiperCore.use([Navigation]);
-  const [listing, setListing] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(false);
+  const [listing, setListing] = useState(null);                                              
+  const [loading, setLoading] = useState(false);                                              
+  const [error, setError] = useState(false);                                              
   const [copied, setCopied] = useState(false);
-  const [contact, setContact] = useState(false);
-  const params = useParams();
+  const [contact, setContact] = useState(false);                                              
+  const params = useParams();                                              
   const { currentUser } = useSelector((state) => state.user);
   const [mobileno, setMobileno] = useState("");
 
