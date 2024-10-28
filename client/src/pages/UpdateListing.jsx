@@ -306,11 +306,12 @@ export default function CreateListing() {
               value={formData.countryId}
             >
               <option value="">--Select Country--</option>
-              {country.map((getcon, index) => (
-                <option key={index} value={getcon._id}>
-                  {getcon.countryName}{" "}
-                </option>
-              ))}
+              {Array.isArray(country) &&
+                country.map((getcon, index) => (
+                  <option key={index} value={getcon._id}>
+                    {getcon.countryName}
+                  </option>
+                ))}
             </select>
           </div>
 

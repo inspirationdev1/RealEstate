@@ -86,6 +86,21 @@ export const getListings = async (req, res, next) => {
       type = { $in: ["sale", "rent"] };
     }
 
+    let countryId = req.query.countryid;
+    if (countryId !== undefined) {
+      countryId = { $in: [countryId] };
+    }
+
+    let stateId = req.query.stateid;
+    if (stateId !== undefined) {
+      stateId = { $in: [stateId] };
+    }
+
+    let cityId = "";
+    if (req.query.cityid !== undefined) {
+      cityId = { $in: [cityId] };
+    }
+
     const searchTerm = req.query.searchTerm || "";
 
     const sort = req.query.sort || "createdAt";
@@ -98,6 +113,9 @@ export const getListings = async (req, res, next) => {
       furnished,
       parking,
       type,
+      countryId: countryId,
+      stateId: stateId,
+      cityId: cityId,
     })
       .sort({ [sort]: order })
       .limit(limit)
